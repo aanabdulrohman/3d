@@ -30,20 +30,20 @@
       width: 10em;
       transform-style: preserve-3d;
   }
-  /* Top */
+  /* atas */
   .cube {
       background-color: #f66;
       position: relative;
       transform: translateZ(10em);
       transition: .25s;
   }
-  /* Left */
+  /* kiri */
   .cube:after {
       background-color: #e55;
       transform: rotateX(-90deg) translateY(10em);
       transform-origin: 100% 100%;
   }
-  /* Right */
+  /* kanan */
   .cube:before {
       background-color: #d44;
       transform: rotateY(90deg) translateX(10em);
